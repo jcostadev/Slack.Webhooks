@@ -1,0 +1,16 @@
+C:\MyProjects\Slack.Webhooks\Slack.Webhooks\bin\Debug\Slack.Webhooks.dll
+C:\MyProjects\Slack.Webhooks\Slack.Webhooks\bin\Debug\Slack.Webhooks.pdb
+C:\MyProjects\Slack.Webhooks\Slack.Webhooks\bin\Debug\RestSharp.dll
+C:\MyProjects\Slack.Webhooks\Slack.Webhooks\bin\Debug\ServiceStack.Client.dll
+C:\MyProjects\Slack.Webhooks\Slack.Webhooks\bin\Debug\ServiceStack.Common.dll
+C:\MyProjects\Slack.Webhooks\Slack.Webhooks\bin\Debug\ServiceStack.dll
+C:\MyProjects\Slack.Webhooks\Slack.Webhooks\bin\Debug\ServiceStack.Interfaces.dll
+C:\MyProjects\Slack.Webhooks\Slack.Webhooks\bin\Debug\ServiceStack.Text.dll
+C:\MyProjects\Slack.Webhooks\Slack.Webhooks\bin\Debug\RestSharp.xml
+C:\MyProjects\Slack.Webhooks\Slack.Webhooks\bin\Debug\ServiceStack.xml
+C:\MyProjects\Slack.Webhooks\Slack.Webhooks\bin\Debug\ServiceStack.Client.xml
+C:\MyProjects\Slack.Webhooks\Slack.Webhooks\bin\Debug\ServiceStack.Common.xml
+C:\MyProjects\Slack.Webhooks\Slack.Webhooks\bin\Debug\ServiceStack.Text.xml
+C:\MyProjects\Slack.Webhooks\Slack.Webhooks\obj\Debug\Slack.Webhooks.csprojResolveAssemblyReference.cache
+C:\MyProjects\Slack.Webhooks\Slack.Webhooks\obj\Debug\Slack.Webhooks.dll
+C:\MyProjects\Slack.Webhooks\Slack.Webhooks\obj\Debug\Slack.Webhooks.pdb
