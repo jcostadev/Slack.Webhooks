@@ -1,0 +1,5 @@
+C:\MyProjects\Slack.Webhooks\SlackApi.Domain\bin\Debug\SlackApi.Domain.dll
+C:\MyProjects\Slack.Webhooks\SlackApi.Domain\bin\Debug\SlackApi.Domain.pdb
+C:\MyProjects\Slack.Webhooks\SlackApi.Domain\obj\Debug\SlackApi.Domain.csprojResolveAssemblyReference.cache
+C:\MyProjects\Slack.Webhooks\SlackApi.Domain\obj\Debug\SlackApi.Domain.dll
+C:\MyProjects\Slack.Webhooks\SlackApi.Domain\obj\Debug\SlackApi.Domain.pdb

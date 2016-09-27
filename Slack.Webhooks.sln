@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slack.Webhooks", "Slack.Webhooks\Slack.Webhooks.csproj", "{D9BC2823-D831-4C32-86BB-C154A84D291A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlackApi", "SlackApi\SlackApi.csproj", "{51EEDB7C-A4CC-44F9-B8D5-956336046A2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlackApi.Domain", "SlackApi.Domain\SlackApi.Domain.csproj", "{DF892611-2014-4820-A137-7B67C569CD9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{D9BC2823-D831-4C32-86BB-C154A84D291A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9BC2823-D831-4C32-86BB-C154A84D291A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9BC2823-D831-4C32-86BB-C154A84D291A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51EEDB7C-A4CC-44F9-B8D5-956336046A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51EEDB7C-A4CC-44F9-B8D5-956336046A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51EEDB7C-A4CC-44F9-B8D5-956336046A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51EEDB7C-A4CC-44F9-B8D5-956336046A2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF892611-2014-4820-A137-7B67C569CD9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF892611-2014-4820-A137-7B67C569CD9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF892611-2014-4820-A137-7B67C569CD9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF892611-2014-4820-A137-7B67C569CD9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
