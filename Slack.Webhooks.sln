@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slack.Webhooks", "Slack.Webhooks\Slack.Webhooks.csproj", "{D9BC2823-D831-4C32-86BB-C154A84D291A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlackApi", "SlackApi\SlackApi.csproj", "{51EEDB7C-A4CC-44F9-B8D5-956336046A2A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlackApi.Domain", "SlackApi.Domain\SlackApi.Domain.csproj", "{DF892611-2014-4820-A137-7B67C569CD9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiagnosticApiClient", "DiagnosticApiClient\DiagnosticApiClient.csproj", "{40C57801-3239-4C81-B3A3-FE1D8730E990}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlackApiClient", "SlackApiClient\SlackApiClient.csproj", "{A611A886-8B5D-417B-B0A2-363FF39F6E5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiagnosticApiClient.Domain", "DiagnosticApiClient.Domain\DiagnosticApiClient.Domain.csproj", "{F906E738-BE11-48B5-B25C-73682288F649}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiagnosticApiClient.Utility", "DiagnosticApiClient.Utility\DiagnosticApiClient.Utility.csproj", "{89AF061C-C2E2-4743-AA97-C2B45DB8F75B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D9BC2823-D831-4C32-86BB-C154A84D291A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D9BC2823-D831-4C32-86BB-C154A84D291A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D9BC2823-D831-4C32-86BB-C154A84D291A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D9BC2823-D831-4C32-86BB-C154A84D291A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{51EEDB7C-A4CC-44F9-B8D5-956336046A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{51EEDB7C-A4CC-44F9-B8D5-956336046A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{51EEDB7C-A4CC-44F9-B8D5-956336046A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{51EEDB7C-A4CC-44F9-B8D5-956336046A2A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DF892611-2014-4820-A137-7B67C569CD9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DF892611-2014-4820-A137-7B67C569CD9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF892611-2014-4820-A137-7B67C569CD9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF892611-2014-4820-A137-7B67C569CD9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40C57801-3239-4C81-B3A3-FE1D8730E990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C57801-3239-4C81-B3A3-FE1D8730E990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C57801-3239-4C81-B3A3-FE1D8730E990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C57801-3239-4C81-B3A3-FE1D8730E990}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A611A886-8B5D-417B-B0A2-363FF39F6E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A611A886-8B5D-417B-B0A2-363FF39F6E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A611A886-8B5D-417B-B0A2-363FF39F6E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A611A886-8B5D-417B-B0A2-363FF39F6E5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F906E738-BE11-48B5-B25C-73682288F649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F906E738-BE11-48B5-B25C-73682288F649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F906E738-BE11-48B5-B25C-73682288F649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F906E738-BE11-48B5-B25C-73682288F649}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89AF061C-C2E2-4743-AA97-C2B45DB8F75B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89AF061C-C2E2-4743-AA97-C2B45DB8F75B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89AF061C-C2E2-4743-AA97-C2B45DB8F75B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89AF061C-C2E2-4743-AA97-C2B45DB8F75B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

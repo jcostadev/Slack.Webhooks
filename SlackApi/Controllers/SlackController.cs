@@ -25,6 +25,7 @@ namespace SlackApi.Controllers {
         [HttpGet]
         public IHttpActionResult Get() {
             
+            
             string diagnosticAPI = ConfigurationManager.AppSettings["DiagnosticAPI"];
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri(diagnosticAPI);
